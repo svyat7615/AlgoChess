@@ -11,11 +11,11 @@ def load_bot(path):
 def main():
     game = ChessGame()
 
-    # black_bot = load_bot(input("Введите путь(относительный к боту 1: "))
-    # white_bot = load_bot(input("Введите путь(относительный к боту 2 "))
+    black_bot = load_bot(input("Введите путь(относительный к боту 1: "))
+    white_bot = load_bot(input("Введите путь(относительный к боту 2: "))
 
-    white_bot = load_bot("adaptive")
-    black_bot = load_bot("greedy")
+    # white_bot = load_bot("adaptive")
+    # black_bot = load_bot("greedy")
     
 
     gui = ChessGUI(game)
